@@ -5,11 +5,6 @@ import MainPage from './main page/MainPage'
 import MainContent from './MainPageLanding/compForMain/MainContent'
 import axios from "axios"
 
-
-
-axios.defaults.baseURL = 'http://localhost:443';
-
-
 function App() {
 
 
