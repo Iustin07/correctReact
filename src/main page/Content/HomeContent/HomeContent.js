@@ -21,7 +21,7 @@ function handleDataFlow(){
     }
     // console.log(dataBackend);
         axios
-            .post("https://calm-dawn-95673.herokuapp.com/addresses/correctAddress",dataBackend)
+            .post("https://correct-address.herokuapp.com/addresses/correctAddress",dataBackend)
             .then((response) => {
                 console.log(response.data);
                 getAddress(response.data);
