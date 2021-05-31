@@ -27,7 +27,7 @@ function Footer(){
     return(
         <div className="foot mx-5"> 
                 <div className="FooterIcons">
-                    <a href="https://github.com/QuothR/ElectroWay"><img className="Icon img-fluid" src={iGitHub} alt="Icon" /> </a>
+                    <a href="https://github.com/paulabalint/Correct-an-address"><img className="Icon img-fluid" src={iGitHub} alt="Icon" /> </a>
                 </div>
                 <div className="FooterIcons">
                     <a href="https://www.youtube.com/"><img className="Icon img-fluid" src={iYouTube} alt="Icon" /> </a>
